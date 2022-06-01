@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 
 let sprite = svgstore();
-const type = process.argv[process.argv.length - 1];
 const folder = `./src`; // путь к папке с svg иконками
 
 const getFilesFromFolder = folder => {
